@@ -1,0 +1,16 @@
+<h3>Blog Administration: Delete</h3>
+
+<table>
+    <tr>
+        <td>id</td>
+        <td>title</td>
+        <td>remove?</td>
+    </tr>
+    <tbody>
+    <tr ng-repeat="blog in posts">
+        <td>{{blog.id}}</td>
+        <td>{{blog.title}}</td>
+        <td><button ng-click="delete(blog)">x</button></td>
+    </tr>
+    </tbody>
+</table>

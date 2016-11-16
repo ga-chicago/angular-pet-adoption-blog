@@ -1,0 +1,9 @@
+<h1>The Adoption Blog</h1>
+
+<section>
+    <article ng-repeat="blog in posts">
+        <h3>{{blog.title}}</h3>
+        <p><em>Filed Under: </em>{{blog.tags}}</p>
+        <p>{{blog.content}}</p>
+    </article>
+</section>
